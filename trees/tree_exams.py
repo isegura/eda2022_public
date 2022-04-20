@@ -1,7 +1,7 @@
 from bst import BinarySearchTree
 from bintree import BinaryNode
 
-from TADLineales.slistHT import SList
+from slistHT import SList
 import sys
 
 class MyBST(BinarySearchTree):
