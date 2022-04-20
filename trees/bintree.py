@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
 # Implementation of Binary Tree
 # A node only saves the references to its children
-
-from TADLineales.slistHT import SList
+from slistHT import SList
 
 
 class BinaryNode:
-
     def __init__(self, elem: object, node_left: 'BinaryNode' = None, node_right: 'BinaryNode' = None) -> None:
         self.elem = elem
         self.left = node_left
